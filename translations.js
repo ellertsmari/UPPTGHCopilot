@@ -63,7 +63,10 @@ const translations = {
         resource2: "GitHub Pages Leiðbeiningar",
         resource3: "Copilot Skjöl",
         congratsTitle: "Til hamingju!",
-        congratsText: "Nú hefur þú stofnað aðgang, notað Copilot og birt þína eigin vefsíðu með GitHub Pages."
+        congratsText: "Nú hefur þú stofnað aðgang, notað Copilot og birt þína eigin vefsíðu með GitHub Pages.",
+        scrollWarning: "⚠️ Þú hefur ekki séð allt efnið enn!",
+        warningContinue: "Halda áfram að lesa",
+        warningClose: "Loka samt"
     },
     en: {
         presentationTitle: "GitHub Guide for Students",
@@ -129,7 +132,10 @@ const translations = {
         resource2: "GitHub Pages Guide",
         resource3: "Copilot Documentation",
         congratsTitle: "Congratulations!",
-        congratsText: "You have now created an account, used Copilot and published your own website with GitHub Pages."
+        congratsText: "You have now created an account, used Copilot and published your own website with GitHub Pages.",
+        scrollWarning: "⚠️ You haven't seen all the content yet!",
+        warningContinue: "Continue Reading",
+        warningClose: "Close Anyway"
     },
     th: {
         presentationTitle: "คู่มือ GitHub สำหรับนักเรียน",
@@ -195,7 +201,10 @@ const translations = {
         resource2: "คู่มือ GitHub Pages",
         resource3: "เอกสาร Copilot",
         congratsTitle: "ขอแสดงความยินดี!",
-        congratsText: "ตอนนี้คุณได้สร้างบัญชี ใช้ Copilot และเผยแพร่เว็บไซต์ของคุณเองด้วย GitHub Pages แล้ว"
+        congratsText: "ตอนนี้คุณได้สร้างบัญชี ใช้ Copilot และเผยแพร่เว็บไซต์ของคุณเองด้วย GitHub Pages แล้ว",
+        scrollWarning: "⚠️ คุณยังไม่ได้ดูเนื้อหาทั้งหมด!",
+        warningContinue: "อ่านต่อ",
+        warningClose: "ปิดเลย"
     },
     fa: {
         presentationTitle: "راهنمای GitHub برای دانش‌آموزان",
@@ -261,7 +270,10 @@ const translations = {
         resource2: "راهنمای GitHub Pages",
         resource3: "مستندات Copilot",
         congratsTitle: "تبریک!",
-        congratsText: "اکنون شما یک حساب کاربری ایجاد کرده‌اید، از Copilot استفاده کرده‌اید و وب‌سایت خود را با GitHub Pages منتشر کرده‌اید."
+        congratsText: "اکنون شما یک حساب کاربری ایجاد کرده‌اید، از Copilot استفاده کرده‌اید و وب‌سایت خود را با GitHub Pages منتشر کرده‌اید.",
+        scrollWarning: "⚠️ شما هنوز تمام محتوا را ندیده‌اید!",
+        warningContinue: "ادامه مطالعه",
+        warningClose: "بستن به هر حال"
     },
     ar: {
         presentationTitle: "دليل GitHub للطلاب",
@@ -327,7 +339,10 @@ const translations = {
         resource2: "دليل GitHub Pages",
         resource3: "وثائق Copilot",
         congratsTitle: "تهانينا!",
-        congratsText: "لقد قمت الآن بإنشاء حساب واستخدام Copilot ونشر موقع الويب الخاص بك باستخدام GitHub Pages."
+        congratsText: "لقد قمت الآن بإنشاء حساب واستخدام Copilot ونشر موقع الويب الخاص بك باستخدام GitHub Pages.",
+        scrollWarning: "⚠️ لم تر كل المحتوى بعد!",
+        warningContinue: "متابعة القراءة",
+        warningClose: "إغلاق على أي حال"
     },
     uk: {
         presentationTitle: "Посібник з GitHub для студентів",
@@ -393,7 +408,10 @@ const translations = {
         resource2: "Посібник GitHub Pages",
         resource3: "Документація Copilot",
         congratsTitle: "Вітаємо!",
-        congratsText: "Тепер ви створили обліковий запис, використовували Copilot та опублікували власний веб-сайт за допомогою GitHub Pages."
+        congratsText: "Тепер ви створили обліковий запис, використовували Copilot та опублікували власний веб-сайт за допомогою GitHub Pages.",
+        scrollWarning: "⚠️ Ви ще не бачили весь вміст!",
+        warningContinue: "Продовжити читання",
+        warningClose: "Закрити все одно"
     },
     et: {
         presentationTitle: "GitHub juhend õpilastele",
@@ -459,6 +477,9 @@ const translations = {
         resource2: "GitHub Pages juhend",
         resource3: "Copilot dokumentatsioon",
         congratsTitle: "Palju õnne!",
-        congratsText: "Oled nüüd loonud konto, kasutanud Copilot ja avaldanud oma veebilehe GitHub Pages abil."
+        congratsText: "Oled nüüd loonud konto, kasutanud Copilot ja avaldanud oma veebilehe GitHub Pages abil.",
+        scrollWarning: "⚠️ Sa pole veel kogu sisu näinud!",
+        warningContinue: "Jätka lugemist",
+        warningClose: "Sulge ikkagi"
     }
 };
