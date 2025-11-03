@@ -30,7 +30,8 @@ function updateLanguage() {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[currentLang] && translations[currentLang][key]) {
-            element.textContent = translations[currentLang][key];
+            // Use innerHTML to support HTML links in translations
+            element.innerHTML = translations[currentLang][key];
         }
     });
     
