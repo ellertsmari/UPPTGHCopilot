@@ -99,7 +99,7 @@ todoItems.forEach(item => {
 
 ## 📚 Content Structure
 
-The guide is organized into 3 chapters:
+The guide is organized into 5 chapters:
 
 ### Chapter 1: Create GitHub Account (Steps 1.1-1.6)
 - Navigate to GitHub and sign up
@@ -121,6 +121,22 @@ The guide is organized into 3 chapters:
 - Navigate to repository
 - Enable GitHub Pages
 - Wait for publication and access live site
+
+### Chapter 4: Day 2 - Try to Modify the Website (Steps 4.1-4.5)
+- Understanding port forwarding in Codespaces
+- How to access localhost servers via the Ports tab
+- Learning to prompt Copilot for port information
+- Understanding file structure and folders
+- Adding images to websites (placeholder and uploaded)
+- Using the HTML `<img>` tag with src and alt attributes
+
+### Chapter 5: Make Changes to Your Website (Steps 5.1-5.6)
+- Understanding HTML, CSS, and JavaScript (the three building blocks)
+- Making simple HTML changes (text, paragraphs, images, links)
+- Styling with CSS (colors, sizes, spacing)
+- Adding interactivity with JavaScript (buttons, animations, counters)
+- The Edit-Save-Refresh workflow and debugging
+- Practice challenge: customizing the website with progressive difficulty
 
 ### Adding New Content
 
@@ -283,6 +299,16 @@ This guide is designed for:
 4. Use AI assistance to build a simple website
 5. Deploy a website with GitHub Pages
 6. Submit work via repository URLs
+7. Understand port forwarding in Codespaces
+8. Access local development servers through forwarded ports
+9. Understand file structure and organize website assets
+10. Add images to websites using HTML
+11. Understand the three building blocks: HTML, CSS, and JavaScript
+12. Make content changes by modifying HTML
+13. Style websites using CSS
+14. Add interactivity with JavaScript
+15. Learn the Edit-Save-Refresh development workflow
+16. Practice customizing websites with Copilot's help
 
 ## 🌟 Features for Educators
 

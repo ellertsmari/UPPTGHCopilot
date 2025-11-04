@@ -113,12 +113,63 @@ main {
     margin-bottom: 3rem;
 }
 
+.day-divider {
+    margin: 4rem 0;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.day-divider::before,
+.day-divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.5), transparent);
+}
+
+.day-divider::before {
+    left: 0;
+}
+
+.day-divider::after {
+    right: 0;
+}
+
+.day-title {
+    display: inline-block;
+    color: #00ff41;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 255, 65, 0.8);
+    padding: 0.5rem 2rem;
+    background: rgba(13, 2, 8, 0.9);
+    border: 2px solid rgba(0, 255, 65, 0.5);
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+
 .chapter-title {
     color: #00ff41;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+}
+
+.chapter-intro {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+    background: rgba(13, 2, 8, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 200, 83, 0.2);
 }
 
 .todo-container {
@@ -148,6 +199,38 @@ main {
 .todo-item:hover {
     background-color: rgba(0, 200, 83, 0.1);
     box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+}
+
+.todo-item.special-challenge {
+    border: 2px solid rgba(255, 215, 0, 0.5);
+    background: linear-gradient(135deg, rgba(13, 2, 8, 0.95) 0%, rgba(50, 30, 0, 0.95) 100%);
+}
+
+.todo-item.special-challenge:hover {
+    background: linear-gradient(135deg, rgba(13, 2, 8, 0.9) 0%, rgba(50, 30, 0, 0.9) 100%);
+    border-color: rgba(255, 215, 0, 0.7);
+}
+
+.challenge-badge {
+    display: inline-block;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    background: rgba(255, 215, 0, 0.15);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    margin-left: 0.5rem;
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+    }
 }
 
 .todo-checkbox {
@@ -346,6 +429,24 @@ footer {
 .congrats-message p {
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+.modal-links {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid rgba(0, 200, 83, 0.3);
+}
+
+.modal-links p {
+    color: #00ff41;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.modal-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .close-modal {
