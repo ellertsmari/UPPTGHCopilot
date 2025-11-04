@@ -24,9 +24,10 @@ An interactive, multilingual educational guide teaching students how to create a
 
 ## 🌍 Supported Languages
 
-The guide supports 7 languages with full RTL (Right-to-Left) support:
+The guide supports 8 languages with full RTL (Right-to-Left) support:
 - **Icelandic (is)** - Íslenska
 - **English (en)**
+- **Spanish (es)** - Español
 - **Estonian (et)** - Eesti
 - **Thai (th)** - ไทย
 - **Persian (fa)** - فارسی (RTL)
@@ -150,7 +151,7 @@ The guide is organized into 3 chapters:
 </div>
 ```
 
-2. Add translations to `translations.js` for ALL 7 languages:
+2. Add translations to `translations.js` for ALL 8 languages:
 ```javascript
 const translations = {
     is: {
@@ -161,7 +162,7 @@ const translations = {
         stepNewTitle: "New Step",
         stepNewContent: "Instructions in English..."
     },
-    // ... add for all 7 languages (is, en, et, th, fa, ar, uk)
+    // ... add for all 8 languages (is, en, es, et, th, fa, ar, uk)
 };
 ```
 
@@ -228,7 +229,7 @@ const translations = {
 
 2. **File Structure:**
    - `index.html` - Main structure, add new steps here
-   - `translations.js` - All text content in 7 languages
+   - `translations.js` - All text content in 8 languages
    - `main.js` - Modal and checkbox logic
    - `styles.css` - Visual styling
    - `images/` - Add screenshots named by chapter-step (e.g., `2-3.png`)
@@ -287,7 +288,7 @@ This guide is designed for:
 
 - **Progress Tracking**: Students' checkboxes save automatically
 - **Visual Learning**: Screenshots guide every step
-- **Multilingual**: Accommodate diverse classrooms (7 languages)
+- **Multilingual**: Accommodate diverse classrooms (8 languages)
 - **No Installation**: Works in any modern browser
 - **Self-Paced**: Students work at their own speed
 - **Accessible**: Clean, high-contrast design
