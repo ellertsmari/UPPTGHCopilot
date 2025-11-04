@@ -181,7 +181,7 @@
         </div>
 
         <!-- Day 2 Divider -->
-        <div class="day-divider">
+        <div id="day2" class="day-divider">
             <h2 class="day-title" data-translate="day2Title">📅 Dagur 2</h2>
         </div>
 
@@ -342,7 +342,17 @@
                         <label for="step6_3"></label>
                     </div>
                     <div class="todo-content">
-                        <span class="todo-text" data-translate="step6_3Title"><strong>6.3</strong> Deildu síðunni þinni!</span>
+                        <span class="todo-text" data-translate="step6_3Title"><strong>6.3</strong> Afritaðu og staðfestu slóðina</span>
+                    </div>
+                </div>
+
+                <div class="todo-item" data-modal="modal6_4">
+                    <div class="todo-checkbox">
+                        <input type="checkbox" id="step6_4">
+                        <label for="step6_4"></label>
+                    </div>
+                    <div class="todo-content">
+                        <span class="todo-text" data-translate="step6_4Title"><strong>6.4</strong> Deildu síðunni þinni!</span>
                     </div>
                 </div>
             </div>
@@ -801,18 +811,35 @@
         <div class="modal-dialog">
             <span class="close-modal">&times;</span>
             <div class="modal-body">
-                <h3 data-translate="step6_3Title">Deildu síðunni þinni!</h3>
+                <h3 data-translate="step6_3Title">Afritaðu og staðfestu slóðina</h3>
+                <p class="modal-text" data-translate="step6_3">Núna þegar síðan þín er birt þarft þú að afrita slóðina og staðfesta að hún virki:</p>
+                <ul class="modal-list">
+                    <li data-translate="step6_3a">Farðu í Settings → Pages í repository-nu þínu á GitHub</li>
+                    <li data-translate="step6_3b">Þú munt sjá slóðina á vefsíðuna þína (t.d. https://notandanafn.github.io/vibecode/)</li>
+                    <li data-translate="step6_3c">Afritaðu þessa slóð og opnaðu hana í nýjum vafraflipa til að staðfesta að síðan þín virki</li>
+                    <li data-translate="step6_3d">Skildu slóðinni á Innu</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6.4 -->
+    <div id="modal6_4" class="modal">
+        <div class="modal-dialog">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h3 data-translate="step6_4Title">Deildu síðunni þinni!</h3>
                 <div class="congrats-message">
-                    <h2 data-translate="chapter6CongratsTitle">🎉 Til hamingju! Þú kláraðir námskeiðið! 🎉</h2>
+                    <h2 data-translate="chapter6CongratsTitle">🎉 Til hamingju! Þú kláraðir verkefnið! 🎉</h2>
                     <p data-translate="chapter6Congrats1">Þú hefur náð eitthvað ótrúlegu! Þú ert núna með vefsíðu á netinu sem hver sem er getur séð!</p>
                 </div>
-                <p class="modal-text" data-translate="step6_3">Skilur þú hversu öflugt þetta er?</p>
+                <p class="modal-text" data-translate="step6_4">Skilur þú hversu öflugt þetta er?</p>
                 <ul class="modal-list">
-                    <li data-translate="step6_3a"><strong>📱 Deildu strax:</strong> Þú getur sent vefslóðina þína til vina, fjölskyldu eða hverjum sem er - og þeir geta séð verk þitt samstundis!</li>
-                    <li data-translate="step6_3b"><strong>🎨 Ótakmarkaðar möguleikar:</strong> Þú getur búið til vefsíður um HVAÐ SEM ER sem þér langar til - áhugamálin þín, verkefni í skólanum, portfolio fyrir framtíðarvinnu, leiki, list, hvað sem er!</li>
-                    <li data-translate="step6_3c"><strong>🚀 Lifandi hæfni:</strong> Þú hefur lært hæfni sem fagfólk notar alla daga. GitHub, Git og getan til að búa til vefsíður eru meðal mest eftirsóttu tæknihæfnina í heiminum!</li>
-                    <li data-translate="step6_3d"><strong>🤖 AI tólið þitt:</strong> Með GitHub Copilot hefur þú öflugan samstarfsaðila sem getur hjálpað þér að gera hugmyndirnar þínar að veruleika - sama hversu flóknar þær eru!</li>
-                    <li data-translate="step6_3e"><strong>💪 Þetta er bara byrjunin:</strong> Það sem þú getur búið til er takmarkað bara af ímyndunaraflinu þínu. Haltu áfram að gera tilraunir, læra og byggja!</li>
+                    <li data-translate="step6_4a"><strong>📱 Deildu strax:</strong> Þú getur sent vefslóðina þína til vina, fjölskyldu eða hverjum sem er - og þeir geta séð verk þitt samstundis!</li>
+                    <li data-translate="step6_4b"><strong>🎨 Ótakmarkaðar möguleikar:</strong> Þú getur búið til vefsíður um HVAÐ SEM ER sem þér langar til - áhugamálin þín, verkefni í skólanum, portfolio fyrir framtíðarvinnu, leiki, list, hvað sem er!</li>
+                    <li data-translate="step6_4c"><strong>🚀 Lifandi hæfni:</strong> Þú hefur lært hæfni sem fagfólk notar alla daga. GitHub, Git og getan til að búa til vefsíður eru meðal mest eftirsóttu tæknihæfnina í heiminum!</li>
+                    <li data-translate="step6_4d"><strong>🤖 AI tólið þitt:</strong> Með GitHub Copilot hefur þú öflugan samstarfsaðila sem getur hjálpað þér að gera hugmyndirnar þínar að veruleika - sama hversu flóknar þær eru!</li>
+                    <li data-translate="step6_4e"><strong>💪 Þetta er bara byrjunin:</strong> Það sem þú getur búið til er takmarkað bara af ímyndunaraflinu þínu. Haltu áfram að gera tilraunir, læra og byggja!</li>
                 </ul>
                 <div class="congrats-message">
                     <p data-translate="chapter6Congrats2"><strong>Hvað viltu búa til næst?</strong> Heimurinn bíður eftir að sjá það! 🌟</p>
