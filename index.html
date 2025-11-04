@@ -179,6 +179,34 @@
             </div>
         </div>
 
+        <!-- Chapter 4: Day 2 - Access Your Website -->
+        <div class="chapter-section">
+            <h2 class="chapter-title" data-translate="chapter4Title">4. Dagur 2: Aðgangur að vefsíðunni þinni</h2>
+            <p class="chapter-intro" data-translate="chapter4Intro">Lærðu hvernig á að nálgast vefsíðuna sem Copilot bjó til fyrir þig</p>
+            
+            <div class="todo-container">
+                <div class="todo-item" data-modal="modal4_1">
+                    <div class="todo-checkbox">
+                        <input type="checkbox" id="step4_1">
+                        <label for="step4_1"></label>
+                    </div>
+                    <div class="todo-content">
+                        <span class="todo-text" data-translate="step4_1Title"><strong>4.1</strong> Skilningur á Port Forwarding</span>
+                    </div>
+                </div>
+
+                <div class="todo-item" data-modal="modal4_2">
+                    <div class="todo-checkbox">
+                        <input type="checkbox" id="step4_2">
+                        <label for="step4_2"></label>
+                    </div>
+                    <div class="todo-content">
+                        <span class="todo-text" data-translate="step4_2Title"><strong>4.2</strong> Biddu Copilot með berum hætti</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Resources Section -->
         <div class="chapter-section">
             <h2 class="chapter-title" data-translate="resourcesTitle">Hlekkir</h2>
@@ -376,6 +404,38 @@
                     <h2 data-translate="congratsTitle">Til hamingju!</h2>
                     <p data-translate="congratsText">Nú hefur þú stofnað aðgang, notað Copilot og birt þína eigin vefsíðu með GitHub Pages.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4.1 -->
+    <div id="modal4_1" class="modal">
+        <div class="modal-dialog">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h3 data-translate="step4_1Title">Skilningur á Port Forwarding</h3>
+                <p class="modal-text" data-translate="step4_1">Þegar þú biður Copilot um að búa til vefsíðu keyrir hún á local server (t.d. localhost:3000):</p>
+                <ul class="modal-list">
+                    <li data-translate="step4_1a">Þegar serverinn ræsir ætti Codespaces að skynja hann sjálfkrafa</li>
+                    <li data-translate="step4_1b">Leitaðu að "Ports" flipanum á neðri spjaldinu (við hliðina á Terminal, Problems, o.s.frv.)</li>
+                    <li data-translate="step4_1c">Finndu framsenda portið (t.d. 3000) - það sýnir "Local Address" og "Forwarded Address"</li>
+                    <li data-translate="step4_1d">Smelltu á hnöttinn táknið eða hægri-smelltu og veldu "Open in Browser" til að fá aðgang að vefsíðunni þinni</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4.2 -->
+    <div id="modal4_2" class="modal">
+        <div class="modal-dialog">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h3 data-translate="step4_2Title">Biddu Copilot með berum hætti</h3>
+                <p class="modal-text" data-translate="step4_2">Til þess að gera þetta auðveldara skaltu spyrja Copilot svona:</p>
+                <div class="code-example">
+                    <p data-translate="step4_2a">"Búðu til einfalda vefsíðu og keyrðu hana á local server. Gakktu úr skugga um að segja mér á hvaða porti hún er í gangi svo ég geti nálgast hana í gegnum Codespaces port forwarding."</p>
+                </div>
+                <p class="modal-text" data-translate="step4_2b">Eða enn skýrar: "Búðu til einfalda vefsíðu með local server. Eftir að þú hefur ræst serverinn, mintu mig á að athuga Codespaces Ports flipann til að fá aðgang að framsenda URL."</p>
             </div>
         </div>
     </div>
